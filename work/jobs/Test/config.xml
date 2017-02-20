@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders/>
+  <publishers>
+    <com.emc.it.airwatchplugin.AirwatchPublisher plugin="airwatch-plugin@1.0-SNAPSHOT">
+      <appName>EMC-APP</appName>
+      <airwatchUrl>http://localhost:8082/api/uploadchunk</airwatchUrl>
+      <apiTenentCode>123456</apiTenentCode>
+      <filePattern>*.ipa</filePattern>
+    </com.emc.it.airwatchplugin.AirwatchPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>

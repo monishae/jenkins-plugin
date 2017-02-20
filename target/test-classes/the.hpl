@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Group-Id: com.emc.it
+Short-Name: airwatch-plugin
+Long-Name: Airwatch Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Airwatch Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-09/01/2015 11:46-elumam)
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Dependencies: promoted-builds:2.4;resolution:=optional
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Libraries: C:\Work\airwatch-plugin\target\classes,C:\Users\elumam\.m2\
+ repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar,C:\Users\elum
+ am\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.j
+ ar,C:\Users\elumam\.m2\repository\commons-logging\commons-logging\1.1
+ .1\commons-logging-1.1.1.jar,C:\Users\elumam\.m2\repository\commons-i
+ o\commons-io\2.4\commons-io-2.4.jar,C:\Users\elumam\.m2\repository\or
+ g\apache\httpcomponents\httpcore\4.1\httpcore-4.1.jar,C:\Users\elumam
+ \.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar,C:\Use
+ rs\elumam\.m2\repository\org\apache\httpcomponents\httpclient\4.1.1\h
+ ttpclient-4.1.1.jar
+Resource-Path: C:\Work\airwatch-plugin\src\main\webapp
+

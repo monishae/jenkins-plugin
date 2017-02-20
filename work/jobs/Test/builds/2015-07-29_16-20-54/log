@@ -1,0 +1,98 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+ln 2015-07-29_16-20-54 C:\somnath\work\sts-nws\airwatch-plugin\.\work\jobs\Test\builds\14 failed
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at hudson.Util.createSymlinkJava7(Util.java:1225)
+	at hudson.Util.createSymlink(Util.java:1112)
+	at hudson.model.Run.updateSymlinks(Run.java:1831)
+	at hudson.model.Run.execute(Run.java:1743)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at hudson.Util.createSymlinkJava7(Util.java:1196)
+	... 6 more
+Caused by: java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:890)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	... 11 more
+ln builds\lastSuccessfulBuild C:\somnath\work\sts-nws\airwatch-plugin\.\work\jobs\Test\lastSuccessful failed
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at hudson.Util.createSymlinkJava7(Util.java:1225)
+	at hudson.Util.createSymlink(Util.java:1112)
+	at hudson.model.Run.createSymlink(Run.java:1851)
+	at hudson.model.Run.updateSymlinks(Run.java:1832)
+	at hudson.model.Run.execute(Run.java:1743)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at hudson.Util.createSymlinkJava7(Util.java:1196)
+	... 7 more
+Caused by: java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:890)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	... 12 more
+ln builds\lastStableBuild C:\somnath\work\sts-nws\airwatch-plugin\.\work\jobs\Test\lastStable failed
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at hudson.Util.createSymlinkJava7(Util.java:1225)
+	at hudson.Util.createSymlink(Util.java:1112)
+	at hudson.model.Run.createSymlink(Run.java:1851)
+	at hudson.model.Run.updateSymlinks(Run.java:1833)
+	at hudson.model.Run.execute(Run.java:1743)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at hudson.Util.createSymlinkJava7(Util.java:1196)
+	... 7 more
+Caused by: java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:890)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	... 12 more
+Building in workspace C:\somnath\work\sts-nws\airwatch-plugin\work\jobs\Test\workspace
+Deploying to Airwatch...
+airwatchUrl http://localhost:8082/api/uploadchunk
+apiTenentCode 123456
+appName EMC-APP
+filePattern *.ipa
+Root directory to find files to upload : C:\somnath\work\sts-nws\airwatch-plugin\work\jobs\Test\workspace
+found remote files : 1
+found remote files : EMC-1.0.1-1.0.1.ipa
+Size : 20511744
+Reading the content.
+ERROR: Publisher com.emc.it.airwatchplugin.AirwatchPublisher aborted due to exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.springframework.web.client.RestClientException: Could not write request: no suitable HttpMessageConverter found for request type [com.emc.it.airwatchplugin.AirwatchDTO]
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:597)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:436)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:401)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:279)
+	at com.emc.it.airwatchplugin.service.AirwatchClient.deploy(AirwatchClient.java:50)
+	at com.emc.it.airwatchplugin.AirwatchPublisher.perform(AirwatchPublisher.java:132)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:734)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:683)
+	at hudson.model.Run.execute(Run.java:1770)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Finished: FAILURE

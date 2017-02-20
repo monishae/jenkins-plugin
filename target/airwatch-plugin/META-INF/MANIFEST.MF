@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: elumam
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_45
+Extension-Name: airwatch-plugin
+Specification-Title: Jenkins plugin to deploy artifacts to Airwatch co
+ ntainer
+Implementation-Title: airwatch-plugin
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: com.emc.it
+Short-Name: airwatch-plugin
+Long-Name: Airwatch Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Airwatch Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-08/24/2015 09:08-elumam)
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Dependencies: promoted-builds:2.4;resolution:=optional
+Plugin-Developers: 
+

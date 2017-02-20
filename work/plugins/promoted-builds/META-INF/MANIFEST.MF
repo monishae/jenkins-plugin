@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kohsuke
+Build-Jdk: 1.6.0_26
+Extension-Name: promoted-builds
+Implementation-Title: promoted-builds
+Implementation-Version: 2.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: promoted-builds
+Long-Name: Jenkins promoted builds plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Promoted+Builds+Plugin
+Plugin-Version: 2.4
+Hudson-Version: 1.399
+Plugin-Dependencies: maven-plugin:1.399
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Peter Hayes:petehayes:
+
